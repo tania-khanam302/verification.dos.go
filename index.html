@@ -1,0 +1,148 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate of Proficiency Verification Result</title>
+  
+<link rel="icon" type="image/png" href="fav.png">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <div class="page">
+   <!-- <button class="menu" aria-label="Menu">☰</button> -->
+
+<button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<button class="close-menu" id="closeBtn" aria-label="Close menu">×</button>
+<div class="page-overlay" id="pageOverlay"></div>
+  
+    <main class="content">
+<div class="logo">
+  <img src="logo.png" alt=" logo">
+</div>
+
+      
+      <h1>Certificate of Proficiency Verification Result</h1>
+
+
+      <!--
+      <div class="certificate-details">
+        
+        <div class="name-row row-gap">
+      <p class="number ">The credentials supplied for CoP number 016.245063 are correct.</p>
+        </div>
+
+  <div class=" name-row">
+      <p>RATING FORMING PART OF AN ENGINEERING WATCH</p>
+</div>
+        
+        <div class="name-row valid-btn-content">
+          <p> The status of this certificate is</p>
+<p class="valid-btn">Valid</p>
+        </div>
+
+        <div class="row-gap name-row large-dos">
+   <p>DoS Registration No. :&nbsp</p>
+         <p class="number">2026.06.016.0474753</p> 
+        </div>
+        
+        <div class= "mobile-dos">
+<div class="row-gap name-row">
+   <p>DoS Registration No. :&nbsp</p>
+        </div>
+<div class=" name-row">
+   <p class="number">2026.06.016.0474753</p>
+        </div>
+      </div>
+        
+        <div class="name-row">
+          <p>Date of Issue :&nbsp</p>
+         <p class ="number">29-09-2026</p>
+        </div>
+
+        <div class="name-row">
+          <p>Expiry Date :&nbsp </p>
+          <p class="number"> 16-09-2031</p>
+        </div>
+
+        <div class="third-row row-gap">
+          <p>Name of Seafarer :&nbsp</p>
+          <span class="name">MD SAMSULLAH</span>
+        </div>
+
+        <div class="third-row">
+          <p>Date of Birth :&nbsp</p>
+          <span class=" name number">25-11-2001</span>
+          
+        </div>
+
+        <div class="third-row">
+          <p>CDC No :&nbsp</p>
+          <span class=" name cdc-no number">C/O/13575</span>
+                                               
+        </div>
+      </div>
+-->
+
+
+<a href="cer-28.322.html">Page 1</a>
+      
+
+     <a href="search/web/cop.html?cert=016.245063">
+  Verify Certificate
+</a>
+      
+     <!-- <nav class="page-links"> -->
+       <!-- <a href="cer-28.322.html">Page 1</a> -->
+     <!--   <a href="page-2.html">Page 2</a> -->
+      <!--  <a href="page-3.html">Page 3</a> -->
+    <!--  </nav> -->
+
+     <!-- <p class="demo-note">DEMO PAGE — SAMPLE INFORMATION</p> -->
+
+    </main>
+  </div>
+
+
+
+
+  
+
+
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const closeBtn = document.getElementById("closeBtn");
+  const overlay = document.getElementById("pageOverlay");
+
+  function openMenu() {
+    overlay.classList.add("active");
+    closeBtn.classList.add("active");
+
+    menuBtn.setAttribute("aria-expanded", "true");
+    closeBtn.setAttribute("aria-label", "Close menu");
+  }
+
+  function closeMenu() {
+    overlay.classList.remove("active");
+    closeBtn.classList.remove("active");
+
+    menuBtn.setAttribute("aria-expanded", "false");
+  }
+
+  menuBtn.addEventListener("click", openMenu);
+  closeBtn.addEventListener("click", closeMenu);
+  overlay.addEventListener("click", closeMenu);
+</script>
+
+
+  
+</body>
+</html>
+
+
+
+
